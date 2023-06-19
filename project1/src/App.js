@@ -42,7 +42,7 @@ const App = () => {
        {options && 
             <div> <p> <strong> Question: </strong> {options[0].question} </p>
                <p> <strong> Answer: </strong> {options[0].answer} </p> 
-               <Button variant="contained" onClick={callApi} >Generate Q&A/Button>
+               <Button variant="contained" onClick={callApi} >Generate Q&A</Button>
                
             </div> 
         }
